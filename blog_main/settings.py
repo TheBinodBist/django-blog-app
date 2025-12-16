@@ -119,3 +119,11 @@ STATIC_URL = 'static/'
 STATIC_ROOT = BASE_DIR / 'static'
 STATICFILES_DIRS = ['blog_main/static']
 
+
+
+DEFAULT_AUTO_FIELD ='django.db.models.BigAutoFiled'
+
+
+MEDIA_URL='/media'
+MEDIA_ROOT= BASE_DIR /'media'
+
